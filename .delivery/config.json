@@ -6,7 +6,7 @@
   },
   "skip_phases": [],
   "job_dispatch": {
-    "version": "v2"
+    "version": "v1"
   },
   "dependencies": []
 }
