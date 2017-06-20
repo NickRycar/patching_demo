@@ -1,8 +1,11 @@
-### Patch Management with Chef Automate
+## Purposeful Patch Management
+## with Chef Automate
+
+--
 
 Nick Rycar
 
-Lead Inside Solution Architect
+Technical Product Marketing Manager
 
 Chef Software
 
@@ -21,8 +24,9 @@ Chef Software
 * ~10 yrs. Linux Systems Administration Experience
   * ~5 yrs. Chef Config Management
 * 2.5 yrs. Chef Employee
-  * Transitioned to sales role as an SA.
-  * Powerless to make pretty decks without my marketing team.
+  * Started as an SA
+  * Transitioned into Marketing in 2017
+  * My slide decks remain decidedly low-tech
 
 ---
 
@@ -80,22 +84,21 @@ If installing packages is so simple, why don't we just do the above and call it 
 ---
 
 ### The 'why' Stack
+#### Aslak Hellesøy, creator of Cucumber
 
-> pop the why stack max 5 times (ask why recursively)
-> until you end up with one of the following business values:
+```text
+"pop the 'why stack' max 5 times (ask why recursively)
+until you end up with one of the following business values:
 
-> * Protect revenue
+* Protect revenue
+* Increase revenue
+* Manage cost
 
-> * Increase revenue
-
-> * Manage cost
-
----
-
-### The 'why' Stack
-
->If you’re about to implement a feature that doesn’t support one of those values, chances are you’re about to implement a non-valuable feature. Consider tossing it altogether or pushing it down in your backlog.
-- Aslak Hellesøy, creator of Cucumber
+If you’re about to implement a feature that doesn’t support
+one of those values, chances are you’re about to implement
+a non-valuable feature. Consider tossing it altogether
+or pushing it down in your backlog."
+```
 
 Note:
 Does defining a patch management scheme increase revenue? Probably not.
@@ -109,7 +112,7 @@ Why? Because if I'm running latest packages, I'm at less risk for vulnerabilitie
 
 ~~"...to ensure the most up to date versions of my software are installed"~~
 
-"... to reduce the **risk** "
+"... to *protect revenue* by reducing the **risk** to our systems"
 
 ---
 
